@@ -1,14 +1,14 @@
 function myFunction() {
-    alert('Your message has been sent.');
+    alert("Your message has been sent");
 }
 function link() {
     window.open("https://github.com/Troy-Kettle/grids_and_coordinates");
 }
 function link2() {
-    window.open("https://github.com/Troy-Kettle/Practical2/blob/master/CurriculumVitae.html")
+    window.open("https://github.com/Troy-Kettle/Prac2V2")
 }
 function  link3() {
-    window.open("https://github.com/Troy-Kettle/Practical2/blob/master/cv.css")
+    window.open("https://github.com/Troy-Kettle/simpleJsCalculator")
 }
 let toggle = button => {
     let element = document.getElementById("Modules");
