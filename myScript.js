@@ -1,0 +1,37 @@
+function myFunction() {
+    alert('Your message has been sent.');
+}
+function link() {
+    window.open("https://github.com/Troy-Kettle/grids_and_coordinates");
+}
+function link2() {
+    window.open("https://github.com/Troy-Kettle/Practical2/blob/master/CurriculumVitae.html")
+}
+function  link3() {
+    window.open("https://github.com/Troy-Kettle/Practical2/blob/master/cv.css")
+}
+let toggle = button => {
+    let element = document.getElementById("Modules");
+    let hidden = element.getAttribute("hidden");
+
+    if (hidden) {
+       element.removeAttribute("hidden");
+       button.innerText = "Year 1 Modules";
+    } else {
+       element.setAttribute("hidden", "hidden");
+       button.innerText = "Year 1 Modules";
+    }
+  }
+
+  let toggle2 = button => {
+    let element = document.getElementById("Modules2");
+    let hidden = element.getAttribute("hidden");
+
+    if (hidden) {
+       element.removeAttribute("hidden");
+       button.innerText = "Year 2 Modules";
+    } else {
+       element.setAttribute("hidden", "hidden");
+       button.innerText = "Year 2 Modules";
+    }
+}
