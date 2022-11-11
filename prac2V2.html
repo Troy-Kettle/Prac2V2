@@ -39,7 +39,6 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#ContactSection">Contact Me</a>
                 </li>
-            </ul>
         </div>
     </nav>
 
@@ -80,7 +79,7 @@
         </div>
         <div>
             <p>
-                At the moment I am working towards my undergraduate degree in Computer Science with software engineering
+                At the moment I am working towards my undergraduate degree in Computer Science with Software Engineering
                 at
                 Keele University.
             </p>
@@ -88,17 +87,19 @@
         <div id="WorkExperience">
             <h4>Work Experience</h4>
             <ul>
-                <li>Bar Staff at weatherspoons</li>
+                <li>Computer Science Subsitute Teacher</li>
                 <li>Volunteer Marshal at Parkrun UK</li>
-                <li>Kitchen Porter at Hickories</li>
+                <li>Virtual Software Engineering Intership - JPMogran</li>
             </ul>
         </div>
         <div id="Skills">
             <h4>Skills</h4>
             <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Java</li>
+                <li>HTML,CSS and JavaScript - Excellent</li>
+                <li>Java - Very Good</li>
+                <li>C++ - Good</li>
+                <li>Python - Average</li>
+                <li>Linux - Very Good</li>
                 <li>Problem Solving</li>
                 <li>Communication</li>
             </ul>
@@ -290,20 +291,14 @@
     <div id="ContactSection" class="p-3 border-bottom">
         <h3 id="contact">Contact</h3>
         <p>Get in touch and talk about anything computer science.</p>
-        <form id="contactBox">
+        <form id="contactBox" action="mailto:troykettle19@gmail.com" subject='Subject' &body='Comment' for the bodyenctype="text/plain" >
             <label>
                 <input type="text" placeholder="Name" required name="Name">
             </label><br><br>
             <label>
-                <input type="text" placeholder="Email" required name="Email">
+                <input class="Subject" type="text" placeholder="Subject" required name="Subject">
             </label><br><br>
-            <label>
-                <input type="text" placeholder="Subject" required name="Subject">
-            </label><br><br>
-            <label>
-                <input type="text" placeholder="Comment" required name="Comment">
-            </label><br><br>
-            <button type="submit" class="btn btn-secondary" onclick="myFunction()"> Submit</button>
+            <button type="submit" class="btn btn-secondary" onclick="openMail()"> Submit</button>
             <br><br>
             <input type="reset" value="Reset" class="btn btn-secondary">
             <br><br><br>
@@ -319,3 +314,4 @@
 </body>
 
 </html>
+    
